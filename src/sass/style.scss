@@ -1,6 +1,13 @@
 @import 'lib/normalize',
         'lib/slick';
 
-body {
-    background: yellow;
+/* general styles */ 
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+/* general styles */ 
+
+/* blocks */
+@import 'blocks/header';

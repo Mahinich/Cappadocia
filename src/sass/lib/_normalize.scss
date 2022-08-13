@@ -9,8 +9,15 @@
  */
 
 html {
+  box-sizing: border-box;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+*, 
+*::after, 
+*::before {
+  box-sizing: inherit;
 }
 
 /* Sections
@@ -39,7 +46,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 
 /* Grouping content
@@ -346,4 +353,18 @@ template {
 
 [hidden] {
   display: none;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+  // &:hover {
+  //   color: aqua;
+  // }
 }
