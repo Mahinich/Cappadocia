@@ -15,4 +15,15 @@
   &__menu-item + .header__menu-item {
     margin-left: 52px;
   }
+  &__title {
+    font-family: 'DancingScript';
+    font-weight: 400;
+    font-size: 250px;
+    span {
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-style: italic;
+      font-size: 56px;
+    }
+  }
 }
