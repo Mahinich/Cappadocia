@@ -22,17 +22,20 @@
     text-decoration: underline;
   }
   &__title {
+    padding-top: 152px;
     font-family: 'DancingScript';
     font-weight: 400;
     font-size: 250px;
+    line-height: 334px;
     text-align: center;
-    span {
-      font-family: 'Roboto';
-      font-weight: 300;
-      font-style: italic;
-      font-size: 56px;
-      text-align: right;
-    }
+  }
+  &__subtitle {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 56px;
+    text-align: right;
+    margin: -67px 120px 0 0;
   }
   &__phone {
     padding-left: 40px;
