@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-between;
     padding: 72px 0 0 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
   }
   &__menu-list {
     display: flex;
@@ -15,15 +18,30 @@
   &__menu-item + .header__menu-item {
     margin-left: 52px;
   }
+  &__menu-link:hover {
+    text-decoration: underline;
+  }
   &__title {
     font-family: 'DancingScript';
     font-weight: 400;
     font-size: 250px;
+    text-align: center;
     span {
       font-family: 'Roboto';
       font-weight: 300;
       font-style: italic;
       font-size: 56px;
+      text-align: right;
+    }
+  }
+  &__phone {
+    padding-left: 40px;
+    position: relative;
+    &:before {
+      content: url('../icons/header-phone-icon.svg');
+      position: absolute;
+      top: 0;
+      left: 0;
     }
   }
 }
