@@ -3,12 +3,36 @@
         'lib/slick';
 
 /* general styles */ 
+
+[class*='__subtitle'] {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 56px;
+  color: #000000;
+}
+
 .container {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.indent-section {
+  margin: 100px auto;
+  max-width: 1920px;
+}
+
+.title {
+  font-family: 'DancingScript';
+  color: #E2AB3F;
+  font-size: 96px;
+  line-height: 128px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
 /* general styles */ 
 
 /* blocks */
 @import 'blocks/header';
+@import 'blocks/fairy-tail';

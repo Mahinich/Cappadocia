@@ -68,7 +68,7 @@ function watching () {
 function build() {
     return src ([
         'src/css/style.min.css',
-        'src/js/script.js',
+        'src/js/*.js',
         'src/*.html'
     ], {base: 'src'})
     .pipe(dest('dist'));

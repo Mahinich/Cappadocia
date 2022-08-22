@@ -1,5 +1,5 @@
 .header {
-  background: url('../img/header-bg.jpg') center bottom / cover no-repeat;
+  background: url('../img/header/header-bg.jpg') center bottom / cover no-repeat;
   height: 100vh;
   &__top {
     display: flex;
@@ -30,10 +30,6 @@
     text-align: center;
   }
   &__subtitle {
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-style: italic;
-    font-size: 56px;
     text-align: right;
     margin: -67px 120px 0 0;
   }
