@@ -3,13 +3,8 @@
         'lib/slick';
 
 /* general styles */ 
-
-[class*='__subtitle'] {
-  font-family: 'Roboto';
-  font-weight: 300;
-  font-style: italic;
-  font-size: 56px;
-  color: #000000;
+:root {
+  --golden: #E2AB3F;
 }
 
 .container {
@@ -25,14 +20,31 @@
 
 .title {
   font-family: 'DancingScript';
-  color: #E2AB3F;
+  color: var(--golden);
   font-size: 96px;
   line-height: 128px;
   font-weight: 400;
   margin-bottom: 100px;
+}
+
+[class*='__subtitle'] {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 56px;
+  color: #000000;
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+[class*='__slider'] {
+    max-width: 50%;
+    height: auto;
 }
 /* general styles */ 
 
 /* blocks */
 @import 'blocks/header';
 @import 'blocks/fairy-tail';
+@import 'blocks/our-trip';

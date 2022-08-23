@@ -1,19 +1,21 @@
-.fairy-tail {
+.our-trip {
   &__wrap {
     position: relative;
   }
-  &__subtitle {
-    // font-size: 24px;
-    // line-height: 28px;
-    display: block;
-    margin: -30px 0 0 180px;
+  &__slider {
+    width: 100%;
+    margin-left: 50%;
   }
   &__img {
-    width: 100%;
+    width: 50%;
+    // margin-left: 100%;
     img {
       width: 100%;
       height: auto;
     }
+  }
+  &__subtitle {
+    margin: -30px 0 0 250px;
   }
   .slick-btn {
     position: absolute;
@@ -29,7 +31,7 @@
   }
   .slick-next {
     right: 0;
-  }
+  }  
   &__container {
     max-width: 1230px;
     margin: 0 auto;
@@ -43,13 +45,20 @@
   &__body {
     width: 50%;
     height: 100%;
-    margin-left: auto;
-    padding-left: 55px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     &-title {
       font-weight: 400;
     }
+  }
+  &__btn {
+    width: 280px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 28px;
+    border: 1px solid var(--golden);
+    font-weight: 300;
+    background-color: #fff;
   }
 }
