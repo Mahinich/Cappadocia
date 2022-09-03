@@ -1,0 +1,39 @@
+.hotel {
+  &__subtitle {
+    margin: -25px 0 0 92px;
+  }
+  &__wrap {
+    display: flex;
+
+  }
+  &__main-img {
+    max-width: 500px;
+    margin-right: 100px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+    &-imgs {
+      display: grid;
+      grid-template: repeat(2, 150px) / repeat(2, 1fr);
+      grid-auto-flow: row;
+      grid-auto-rows: 150px;
+      gap: 50px 39px;
+    }
+    &-img {
+      img {
+        width: 100%; 
+        height: auto;
+      }
+    }
+  }
+  &__text:first-child {
+    margin-top: 0;
+  }
+}
