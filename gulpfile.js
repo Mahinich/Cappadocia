@@ -41,8 +41,8 @@ function img () {
 
 function scripts () {
     return src ('src/js/script.js')
-    .pipe(concat('script.js'))
-    .pipe(uglify())
+    // .pipe(concat('script.js'))
+    // .pipe(uglify())
     .pipe(dest('src/js'))
     .pipe(browserSync.stream());
 }
